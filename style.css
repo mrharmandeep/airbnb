@@ -1,0 +1,330 @@
+*{
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+}
+.logo{
+    width: 20%;
+}
+.logoicon{
+    width: 45%;
+    height:auto ;
+    
+}
+.search-box{
+    background-color: white;
+    height: 40px;
+    border-radius: 40px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;
+}
+.search-btn{
+    color: white;
+    float: right;
+    background-color: rgb(255, 56, 92);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10%;
+}
+.search-txt{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: rgb(34, 34, 34);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+    width: auto;
+
+}
+.host{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 18%;
+    align-items: center;
+    
+}
+.hosttxt{
+    color:black;
+    font-size:16px;
+    font-weight: 600;
+   
+}
+.hostbutton{
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px 0px;
+
+}
+.starred{
+    color:rgb(255, 56, 92);
+}
+.location{
+    color: rgb(255, 56, 92);
+}
+.home{
+    color: rgb(255, 56, 92);
+}
+.box{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.share{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.button1{
+    display: flex;
+    width: 35%;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1em;
+}
+.gallery{
+    padding-top:2%;
+    padding-bottom: 2%;
+    position: relative;
+    height: 70vh;
+    width: 100%;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    grid-auto-flow: dense;
+
+}
+.images{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+.img1{
+    width: 100%;
+    height: inherit;
+    
+} 
+
+.images:first-child{
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+}
+
+.images:nth-child(3){
+   border-top-right-radius: 2%;
+}
+.images:nth-child(5){
+    border-bottom-right-radius: 2%;   
+} 
+.button2{
+    background-color: white;
+    color: black;
+    position: relative;
+    bottom: 25%;
+    left: 35%;
+    border-radius: 10px;
+    width: 50%;
+    padding: 2%;
+
+}
+.main{
+    width: 100%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.mainheading{
+    display: flex;
+    justify-content: space-between;
+
+}
+.badge{
+    height: 65px;
+    width: 85px;
+    position: relative;
+    bottom: 30% 
+}
+
+.badgeimg{
+    object-fit: cover;
+    width: 100%;
+    height: inherit;
+    clip-path: circle();
+}
+.superhost{
+    position: relative;
+    right: 35%;
+    top: 35%;
+    width: 25%;
+    height: 50%;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.iconbox{
+    width: 10%;
+}
+.icon{
+    width: 50%;
+    height: 55%;
+}
+.text2{
+    position: relative;
+    width: 100%;
+    right: 0%;
+}
+.para{
+    width: 90%;
+    font-size: 16;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.sleep{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.sleepimg{
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    margin-top:2%;
+    margin-bottom: 3%;
+}
+.facilities{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 1em;
+}
+.amenities{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    padding-top: 5%;
+    height: 50vh;
+
+}
+
+.icon1{
+    width: 8%;
+    height: 35%;
+    margin-right: 3%;
+}
+.button3{
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 2%;
+    font-weight: 600;
+}
+
+
+.sticky{
+    position: sticky;
+    z-index: 1;
+    bottom: 50%;
+    width: 30%;
+    margin-left: 5%;
+    float: right;
+}
+.firstpart{
+    border: 1px solid rgb(113, 113, 113);
+    background-color: white;
+    border-radius: 12px;
+    width: 100%;
+    height: auto;
+    padding: 24px;
+    box-shadow:rgb(0 0 0 / 12%) 0px 6px 16px;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5%;
+}
+.price{
+    text-align: center;
+}
+.rating{
+    text-align: center;
+    padding-top: 5px;
+    
+}
+.second{
+    
+    width: 100%;
+    height: auto;
+    
+    
+}
+.sub1{
+    display: flex;
+    flex-direction: row;
+
+}
+.checkin {
+    border: 1px solid rgb(113, 113, 113);
+    width: 50%;
+    height: auto;
+    border-top-left-radius: 5px;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.checkout{
+    border: 1px solid rgb(113, 113, 113);
+    width:50%;
+    height: auto;
+    border-top-right-radius: 5px;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.sub2{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(113, 113, 113);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+.third{
+    padding-top: 5%;
+    
+}
+.secondpart{
+    color: rgb(113, 113, 113);
+    text-align: center;padding-top: 5%;
+}
+.icon2{
+    width: 5%;
+    
+   
+}
